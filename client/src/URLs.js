@@ -1,14 +1,14 @@
 let URLs = {};
 
-if (process.env.NODE_ENV === "production") {
+if (true) {
   URLs = {
-    baseURL: "/api",
-    socketURL: "https://smartads.herokuapp.com/api",
+    baseURL: '/api',
+    socketURL: 'https://smartads.herokuapp.com/api',
   };
 } else {
   URLs = {
-    baseURL: "http://localhost:5000/api",
-    socketURL: "http://localhost:5000/api",
+    baseURL: 'http://localhost:5000/api',
+    socketURL: 'http://localhost:5000/api',
   };
 }
 
